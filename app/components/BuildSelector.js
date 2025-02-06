@@ -3,27 +3,60 @@ import { useState } from "react";
 
 const buildsData = {
   "Full Push": {
-    "DPS": {
+    "Tank": {
       bag: null,
-      helmet: "T8_HEAD_PLATE_SET1",
-      cape: null,
-      weapon: "T8_2H_HALBERD",
-      armor: "T8_ARMOR_PLATE_SET1",
-      offhand: null,
-      potion: null,
-      boots: "T8_SHOES_PLATE_SET1",
-      food: null,
+      helmet: "T8_HEAD_PLATE_AVALON",
+      cape: "T8_CAPE_MARTLOCK",
+      weapon: "T8_2H_HAMMER",
+      armor: "T8_ARMOR_PLATE_KEEPER",
+      offhand: "T8_SHIELD",
+      potion: "T8_POTION_RESISTANCE",
+      boots: "T8_SHOES_LEATHER_MORGANA",
+      food: "T8_FOOD_ROAST",
     },
     "Healer": {
       bag: null,
-      helmet: "T8_HEAD_PLATE_SET1",
-      cape: null,
-      weapon: "T8_MAIN_AXE",
+      helmet: "T8_HEAD_CLOTH_SET1",
+      cape: "T8_CAPE_LYMHURST",
+      weapon: "T8_2H_NATURESTAFF_HELL",
+      armor: "T8_ARMOR_LEATHER_FEY",
+      offhand: null,
+      potion: "T8_POTION_ENERGY",
+      boots: "T8_SHOES_LEATHER_MORGANA",
+      food: "T8_FOOD_SOUP",
+    },
+    "DPS (Alabarda)": {
+      bag: null,
+      helmet: "T8_HEAD_PLATE_SET3",
+      cape: "T8_CAPE_THETFORD",
+      weapon: "T8_2H_HALBERD",
       armor: "T8_ARMOR_PLATE_SET1",
       offhand: null,
-      potion: null,
-      boots: "T8_SHOES_PLATE_SET1",
-      food: null,
+      potion: "T7_POTION_COOLDOWN",
+      boots: "T8_SHOES_LEATHER_MORGANA",
+      food: "T8_FOOD_PIE",
+    },
+    "DPS (Segadeira)": {
+      bag: null,
+      helmet: "T8_HEAD_LEATHER_MORGANA",
+      cape: "T8_CAPE_BRIDGEWATCH",
+      weapon: "T8_2H_SCYTHE_HELL",
+      armor: "T8_ARMOR_LEATHER_HELL",
+      offhand: null,
+      potion: "T8_POTION_COOLDOWN",
+      boots: "T8_SHOES_LEATHER_MORGANA",
+      food: "T8_FOOD_PIE",
+    },
+    "DPS (Luvas Avalonianas)": {
+      bag: null,
+      helmet: "T8_HEAD_LEATHER_SET2",
+      cape: "T8_CAPE_FORTSTERLING",
+      weapon: "T8_2H_GLOVES_AVALON",
+      armor: "T8_ARMOR_LEATHER_SET2",
+      offhand: null,
+      potion: "T8_POTION_COOLDOWN",
+      boots: "T8_SHOES_LEATHER_MORGANA",
+      food: "T8_FOOD_PIE",
     },
   },
   "Clap": {
@@ -54,7 +87,7 @@ const buildsData = {
 
 const getItemImage = (itemName) =>
   itemName
-    ? `https://render.albiononline.com/v1/item/${itemName}@0.png?quality=0&size=217&locale=en`
+    ? `https://render.albiononline.com/v1/item/${itemName}@1?quality=4`
     : null;
 
 const BuildSelector = () => {

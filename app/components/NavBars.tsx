@@ -5,9 +5,9 @@ import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 const navLinks = [
-  { title: "Quem Somos", path: "#about" },
+  { title: "Who are us?", path: "/quem-somos" },
   { title: "Builds", path: "/builds" },
-  { title: "Contato", path: "#contato" },
+  { title: "Contact", path: "/contato" },
 ];
 
 const Navbar = () => {
