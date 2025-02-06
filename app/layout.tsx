@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Vitor Vidotto",
-  description: "Portifólio Vitor Vidotto",
+  title: "HELLDIVERS",
+  description: "WELCOME TO HELL",
 };
 
 export default function RootLayout({
