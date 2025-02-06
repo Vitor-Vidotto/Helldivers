@@ -22,7 +22,7 @@ export default function Sobre() {
 <ActiveTooltip
   tooltipText={
     <>
-      Precisa de ajuda? <br /> Entre em contato!
+      Wanna make content <br /> Whit us, go to our Discord
     </>
   }
 >
