@@ -20,7 +20,7 @@ export default function Builds() {
 <ActiveTooltip
   tooltipText={
     <>
-      Precisa de ajuda? <br /> Entre em contato!
+      What are u <br /> looking for?
     </>
   }
 >
