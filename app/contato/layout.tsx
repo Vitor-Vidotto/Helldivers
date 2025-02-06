@@ -4,8 +4,8 @@ import { ReactNode } from 'react'; // Importando ReactNode
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: "Vitor Vidotto",
-  description: "Portifólio Vitor Vidotto",
+  title: "HELLDIVERS",
+  description: "WELCOME TO HELL",
 };
 
 // Definindo a interface para as props do componente
