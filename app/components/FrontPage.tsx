@@ -25,7 +25,7 @@ export default function FrontPage() {
           </ol>
 
           <a
-            href="https://www.linkedin.com/in/vitor-vidotto"
+            href="/contato"
             target="_blank"
             rel="noopener noreferrer"
             className="absolute bottom-0 right-0 m-4 rounded-full flex items-center justify-center text-sm sm:text-base"
@@ -37,7 +37,7 @@ export default function FrontPage() {
             <div className="flex gap-2">
               <a
                 className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-                href="#projects"
+                href="/builds"
                 rel="noopener noreferrer"
                 >
                 <Image
@@ -51,7 +51,7 @@ export default function FrontPage() {
               </a>
               <a
                 className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-                href="#about"
+                href="/quem-somos"
                 rel="noopener noreferrer"
               >
                 <Image
@@ -66,7 +66,7 @@ export default function FrontPage() {
             </div>
             <a
               className="mt-2 rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-              href="https://drive.google.com/file/d/1L3qRZ01JxPr1vs457VIfkjnzQTr71uWh/view?usp=drive_link"
+              href="https://discord.gg/EEdJPfTuma"
               target="_blank"
               rel="noopener noreferrer"
               >

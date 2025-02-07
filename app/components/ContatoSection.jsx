@@ -21,7 +21,7 @@ const ContatoSection = () => {
             </h1>
             <div className="flex flex-col sm:flex-row gap-10 text-center items-center">
                 <a
-                    href="https://discord.com/users/SEU_ID_AQUI"
+                    href="https://discord.gg/EEdJPfTuma"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`text-lg font-semibold text-gray-800 dark:text-white transition-transform duration-1000 ${isVisible ? "opacity-100" : "opacity-0"} hover:text-gray-600 dark:hover:text-gray-300`}
@@ -30,7 +30,7 @@ const ContatoSection = () => {
                 </a>
 
                 <a
-                    href="https://www.twitch.tv/SEU_USUARIO_AQUI"
+                    href="twitch.tv/lospadrinhos"
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`text-lg font-semibold text-gray-800 dark:text-white transition-transform duration-1000 ${isVisible ? "opacity-100" : "opacity-0"} hover:text-gray-600 dark:hover:text-gray-300`}
